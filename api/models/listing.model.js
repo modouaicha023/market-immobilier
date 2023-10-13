@@ -30,7 +30,7 @@ const listingSchema = new mongoose.Schema(
             type: Number,
             required: true,
         },
-        finished: {
+        furnished: {
             type: Boolean,
             required: true,
 
@@ -44,7 +44,7 @@ const listingSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
-        offrer: {
+        offer: {
             type: Boolean,
             required: true,
         },
